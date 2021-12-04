@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .box{
+            border: 1px solid black;
+            /* width: 100px;
+            height: 100px; */
+            padding: 10px; 
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3 ,1fr);
+            border: 2px solid black;
+            grid-gap: 10px;
+        }
+        .box1{
+            background-color: red;
+            grid-column:1/5 ;
+            grid-row:1/2 ;
+            color: white;
+            text-align: center;
+        }
+        .box2{
+            background-color:lightgreen;
+            text-align: center;
+            color: white;
+            font-size: 18px;
+        }
+        .box3{
+            background-color: blue;
+            text-align: left;
+            color: white;
+            font-size: 18px;
+        }
+        .box4{
+            background-color: purple;
+            text-align: left;
+            color: white;
+            font-size: 16px;
+        }
+        .box5{
+            background-color: orange;
+            grid-column:1/4 ;
+            grid-row:3/4 ;
+            text-align: left;
+            color: white;
+            font-size: 16px;
+        }
+        .box6{
+            background-color: black;
+            color: white;
+            text-decoration: underline;
+            grid-row:2/4 ;
+            grid-column:4/5 ;
+            width: 62px;
+            
+        }
+        .box7{
+            background-color: gray;
+            grid-row:4/5 ;
+            grid-column:1/5 ;
+            text-align: center;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box box1">THE BEST PLACE FOR THE BEST CAREER</div>
+    <div class="box box2">You can ask doubt<br> in our doubt section</div>
+    <div class="box box3">Get 30% Off by applying code<br> while purchasing course</div>
+    <div class="box box4">we assure that your hard work and our techin will give bright result.</div>
+    <div class="box box5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla veritatis vero eligendi odio? Quos iste explicabo similique possimus minus. Doloribus maxime debitis veniam doloremque est ipsum repellat laudantium quisquam consectetur culpa. Natus consectetur harum odit Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam sit illum dolorem esse repellat nisi voluptate illo eos, debitis culpa necessitatibus distinctio perspiciatis, saepe blanditiis..</div>
+    <div class="box box6">1.Study Material<br>2.Tests<br>3.Doubt Mentors<br>4.lacture<br>5.Our Subscript<br>6.Our Faculty</div>
+    <div class="box box7">ALL THE BEST !</div>
+    </div>
+</body>
+</html>

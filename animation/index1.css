@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    margin-top: 100px;
+    color: black;
+    animation-name: sahil;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes sahil{
+    30%{
+        transform:rotate(360deg);
+    }
+    70%{
+        transform:scale(2,2);
+    }
+}

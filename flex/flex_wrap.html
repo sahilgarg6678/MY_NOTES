@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 2px solid darkred;
+            width: 50px;
+            height: 50px;
+            margin: 2px;
+        }
+        .box1{
+            background-color: lightcyan;       
+        }
+        .box2{
+            background-color: lightgrey;
+        }
+        .box3{
+            background-color: lightyellow;
+        }
+        .parent{
+            border: 2px solid darkslategray;
+            width: 250px;
+            height: 250px;
+            /* display: flex; come in same line as inline-block */
+            display: flex;
+            flex-wrap:wrap;
+            flex-direction:row-reverse;
+        } 
+    </style>
+</head>
+<body>
+    <!-- there are mainly fivr type of property inline,block,inline-block,none and flex in this we see the flex property     -->
+    <div class="parent">
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box1">4</div>
+    <div class="box box2">5</div>
+    <div class="box box3">6</div>
+    <div class="box box1">7</div>
+    <div class="box box2">8</div>
+    <div class="box box3">9</div>
+    <div class="box box1">10</div>
+    <div class="box box2">11</div>
+    <div class="box box3">12</div>
+    
+    
+    </div>
+
+
+</body>
+</html>

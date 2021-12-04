@@ -1,0 +1,30 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: hotpink;
+    transition: width 2s ease-in, height 2s;
+    /* transition-property: height 2s;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 2s; */
+}  
+
+
+
+.box:hover{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+   
+}
+
+h1{
+    font-size: 20px;
+    margin: auto;
+    color: tomato;
+}
+
+h1:hover{
+    font-size: 40px;
+    color: yellow;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+        <style>
+			.parent {
+				border: 2px solid red;
+				width: 500px;
+				font-size: 20px;
+			}
+			.container {
+				border: 2px solid black;
+				width: 100px;
+			}
+			.container-percent {
+				border: 2px solid black;
+				width: 80%;
+			}
+			.container2 {
+				border: 2px solid black;
+				width: 80%;
+			}
+			.vw-example {
+				border: 2px solid black;
+				width: 80vw;
+			}
+			.emm {
+				font-size: 1em;
+			}
+			.remm {
+				font-size: 2rem;
+			}
+		</style>
+
+
+</head>
+<body>
+     <p>px, %, em, rem, vh/vw, cm</p>
+		<div class="parent">
+			<p class="emm">1em</p>
+			<p class="remm">1rem</p>
+		</div>
+		<div class="parent">
+			Parent
+			<div class="container">Box</div>
+			<div class="container-percent">Box</div>
+		</div>
+		<div class="parent">
+			Parent
+			<div class="container2">Box</div>
+			<div class="vw-example">Box</div>
+		</div>
+
+</body>
+</html>

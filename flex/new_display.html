@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 2px solid darkred;
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+            flex-wrap: wrap;
+        }
+        .box1{
+            background-color: lightcyan;       
+        }
+        .box2{
+            background-color: lightgrey;
+        }
+        .box3{
+            background-color: lightyellow;
+        }
+        .parent{
+            border: 2px solid darkslategray;
+            width: 1000px;
+            height: 500px;
+            /* display: flex; come in same line as inline-block */
+            display: flex;
+            justify-content:space-evenly;
+            align-items:center;
+            /* justify-content:space-between; */
+            /* justify-content: space-around; */
+            /* align-items: center; work on a y axis */
+        } 
+    </style>
+</head>
+<body>
+    <!-- there are mainly fivr type of property inline,block,inline-block,none and flex in this we see the flex property     -->
+    <div class="parent">
+    <div class="box box1">BOX1</div>
+    <div class="box box2">BOX2</div>
+    <div class="box box3">BOX3</div>
+    
+    
+    </div>
+
+
+</body>
+</html>

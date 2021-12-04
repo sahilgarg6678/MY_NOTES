@@ -1,0 +1,42 @@
+body{
+   width: 1000px;
+   height: 2000px;
+}
+
+
+
+
+.box{ 
+   height: 150px;
+   width: 150px;
+   border: 2px solid black;
+   margin: 20px;
+   padding: 10px;
+   font-size: 20px;
+}
+
+.box1{
+   background-color: aqua;
+   /* position: sticky;
+   top: 0; */
+
+}
+
+.box2{
+   background-color: hotpink;
+   /* position: fixed; */
+}
+
+.box3{
+   background-color: chartreuse;
+   position: sticky;
+   top: 0;
+
+  
+}
+
+.container{
+   border: 2px solid blue;
+   width: 500px;
+   height: 1000px;
+} 

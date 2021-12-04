@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        .flexbox{
+            margin: 10px;
+            border: 2px solid gold;
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+        }
+        .flex{
+            border: 2px solid gold;
+            display: flex;
+            justify-content:center;
+            align-items: center;  
+            align-content:flex-start;
+            height: 500px;
+            align-items:center;
+            flex-wrap: wrap;
+            /* flex-direction: column; */
+        }
+        .flexitem{
+            order: 1;
+             /* flex-grow: 2;    for increases the size of box  */
+             flex-shrink: 5;
+           }    
+        .flexitem1{
+             order: 2;
+             /* flex-grow: 1;       order can not be work with a parent class */
+             flex-shrink: 3;
+        }   
+
+
+    </Style>
+</head>
+<body>
+    <div class="flex">
+        <div class="flexbox flexitem">box 1</div>
+        <div class="flexbox flexitem1">box 2</div>
+        <div class="flexbox flexitem1">box 3</div>
+    </div>
+</body>
+</html>
